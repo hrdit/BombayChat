@@ -1,6 +1,6 @@
 Don't want 3rd Party Apps to Steal your Data?
 
- - WELCOME TO BOMBAYCHAT -
+ - WELCOME TO BOMBAYCHAT!!
 
 Self-hosted real-time chat for you and your friends.
 Tech: React/Next.js (TypeScript), Node/Express + Socket.IO, PostgreSQL/Prisma (or SQLite), Docker (optional).
