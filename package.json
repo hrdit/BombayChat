@@ -1,0 +1,12 @@
+{
+  "name": "chat-app",
+  "private": true,
+  "scripts": {
+    "dev:all": "concurrently -n API,WEB -c red,cyan \"cd api && pnpm dev\" \"cd web && pnpm dev\"",
+    "dev:down": "kill-port 3000 3001 4000 4001 || true"
+  },
+  "devDependencies": {
+    "concurrently": "^9.2.1",
+    "kill-port": "^2.0.1"
+  }
+}
